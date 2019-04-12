@@ -1,6 +1,6 @@
 #STUDENT: Jason Pettit
 #CST205-40_SP19
-#Module 6 Lab 13 - Green eggs and ham
+#Module 6 Lab 13 Part 1 - Green eggs and ham
 
 def eggs():
   setMediaPath()
