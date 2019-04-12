@@ -31,7 +31,8 @@ def eggs():
     print keys[y] + "\t\t" + str(values[y])
   
   storeCount = 0
-  
+
+  #find and store the most frequent word
   for y in range(0,len(keys)):
     if values[y] > storeCount:
       storeKey = keys[y]
