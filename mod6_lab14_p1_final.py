@@ -28,7 +28,7 @@ def eggs():
   
   #print the key:value pairs nicely formatted
   for y in range(0,len(keys)):
-    print keys[y] + "\t\t" + str(values[y])
+    print keys[y] + "\t\t\t"+ str(values[y])
   
   storeCount = 0
 
