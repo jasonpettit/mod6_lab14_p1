@@ -1,25 +1,22 @@
 #STUDENT: Jason Pettit
 #CST205-40_SP19
-#Module 6 Lab 13 Part 2 - Headlines
+#Module 6 Lab 14 Part 2 - Headlines
 
 def headlines():
   setMediaPath()
-  file = open(pickAFile(),"rt")
-  string = file.read()
-  file.close()
+  file = open(pickAFile(),"r")
   
-  headlines = []
+  startString = "uscb-margin-TB-02 uscb-title-3"
+  line = ''
   
-  start = "<p class=\"uscb-margin-TB-02 uscb-title-3\">"
-  end = "</p>"
+  print "U.S. Census Bureau Headlines"
   
-  #print start
-  
-  print string.find(start)
-  
-  #for start in string:
-    #print start
-  
+  for headline in file:
+    if startString in line:
+      print headline
+    line = headline
     
-    
+  
+  
+
   
